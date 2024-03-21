@@ -45,7 +45,7 @@ ol {
   grid-template-columns: 1fr 1fr;
 }
 
-.result {
+.result{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -53,7 +53,7 @@ ol {
   height: 100%;
 }
 
-.result__video-container {
+.result__video-container{
   position: relative;
   z-index: 0;
   max-height: 386px;
