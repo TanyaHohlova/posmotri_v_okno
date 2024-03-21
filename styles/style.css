@@ -37,7 +37,6 @@ ol {
   list-style: none;
 }
 
-/*pppp*/
 .content {
   max-width: 1140px;
   max-height: 534px;
@@ -46,7 +45,6 @@ ol {
   grid-template-columns: 1fr 1fr;
 }
 
-/*pppp*/
 .result {
   display: flex;
   flex-direction: column;
@@ -55,7 +53,6 @@ ol {
   height: 100%;
 }
 
-/*pppp*/
 .result__video-container {
   position: relative;
   z-index: 0;
@@ -202,10 +199,6 @@ input[type='checkbox']:checked + span::before {
   z-index: 0;
   height: 298px;
   overflow: auto;
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
 
 .content__list-item {
