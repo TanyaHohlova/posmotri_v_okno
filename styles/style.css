@@ -42,7 +42,6 @@ ol {
 
 .content {
   max-width: 1140px;
-  min-height: 534px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -58,7 +57,7 @@ ol {
 .result__video-container{
   position: relative;
   z-index: 0;
-  min-height: 386px;
+  height: 386px;
   width: 100%;
   margin-bottom: 16px;
   object-position:center; 
@@ -71,7 +70,6 @@ ol {
 }
 
 .search-form {
-  min-height: 54px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -93,6 +91,7 @@ ol {
 .search-form__label {
   min-width: 61px;
   display: flex;
+  align-items: center;
   gap: 5px;
 }
 
@@ -100,7 +99,7 @@ ol {
   background: none;
   border-style: none;
   width: 225px;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -180,7 +179,7 @@ button:hover:not(button:active) {
   height: 100%;
 }
 .title {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 70px;
@@ -229,7 +228,6 @@ button:hover:not(button:active) {
 } 
 
 .content__video-card {
-  min-height: 107px;
   width: 399px;
   display: grid;
   grid-template-columns: 1fr min-content;
@@ -263,7 +261,7 @@ button:hover:not(button:active) {
 
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
@@ -273,7 +271,7 @@ button:hover:not(button:active) {
 
 .content__video-card-description {
   max-width: 200px;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: normal;
   line-height: 16px;
@@ -301,7 +299,7 @@ button:hover:not(button:active) {
   border-style: none;
   border: 1px solid white;
   color: #fff;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
